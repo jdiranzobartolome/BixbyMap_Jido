@@ -1,0 +1,20 @@
+train (t-372glqn3ia5xc4ojqjx4mm4vr) {
+  utterance ("[g:LocationConcept,r:IsThere] 여기 근처에 (바다)[v:LocationOwnerConcept:바다]  (연구실)[v:LocationTypeConcept:연구실]이 있어?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561639515578)
+}
+train (t-3fgnmut3mka450m3u3wyou1i7) {
+  utterance ("[g:LocationConcept,r:FindLocation] (바다)[v:LocationOwnerConcept:바다] (연구실)[v:LocationTypeConcept:연구실]이 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561544749555)
+}
+train (t-3l07znwn7xfdid0hbi07g1nyr) {
+  utterance ([g:UpdateTravelItineraryRemoteEndpoint,v:TravelingBooleanConcept:true] 계속)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDCAA5QMA)
+  last-modified (1561599841172)
+}
+train (t-3lhmlbonuxvzh2d8lxqybrt4w) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:여기?] 여기 맞아?)
+  plan (Y2BmkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGWQxtYRUFqTCtDExMAIxA5BkZAABJggGAA==)
+  last-modified (1561546061375)
+}

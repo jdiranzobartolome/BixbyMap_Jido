@@ -1,0 +1,12 @@
+enum (LocationOwnerConcept) {
+ description (Owner of an office or man/woman for bathroom)
+ symbol (Luis Cavazos)
+ symbol (Jorge Iranzo)
+ symbol (VADA)
+ symbol (professor Cho)
+ symbol (null)
+ symbol (professor Smith)
+ symbol (unknown)
+ symbol (스미스 교수님)
+ symbol (바다)
+}

@@ -1,0 +1,5 @@
+server/node_modules
+
+#ignore all bixby related files except for the project folder.
+bixby/*
+!bixby/bixbymap_1.3.0.project

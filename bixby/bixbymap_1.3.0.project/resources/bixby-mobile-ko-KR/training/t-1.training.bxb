@@ -1,0 +1,5 @@
+train (t-130bo915ca1wqp0qphc9g19z7) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (현재 위치)[v:LocationTypeConcept:'현재 위치']가 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561662160332)
+}

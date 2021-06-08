@@ -1,0 +1,13 @@
+dialog (Result) {
+    match {
+        LocationConcept (locationResult) {
+        from-output: IsThere (isThereAction)
+     }
+   }
+      if (locationResult.type == 'unknown') {
+        template ("아니에요, 그거 여기 근처에 없습니다")
+      }
+      else {
+        template ("네, 여기 근처에 있습니다")
+   }
+  }

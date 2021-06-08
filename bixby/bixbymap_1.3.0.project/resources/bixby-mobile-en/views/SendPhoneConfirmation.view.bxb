@@ -1,0 +1,39 @@
+result-view {
+  match {
+    SendPhoneConfirmationConcept (locationResult)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          if (locationResult.type != 'unknown') {
+            image {
+              object-fit (Contain)
+              object-position (Top)
+              url ("${value(locationResult.gif_url)}")
+            }
+            image {
+              object-fit (Contain)
+              object-position (Top)
+              url ("${value(locationResult.photo_url)}")
+           }
+           if (locationResult.owner == 'null'){
+             single-line {
+               text {
+                 value ("This is the ${value(locationResult.type)}")
+               }
+             }
+           } else {
+             single-line {
+               text {
+                 value ("This is the ${value(locationResult.type)} of ${value(locationResult.owner)}")
+               }
+             } 
+           }   
+         }
+       }
+     }
+   }
+ }
+}

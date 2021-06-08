@@ -1,0 +1,12 @@
+action (UpdateTravelItineraryRemoteEndpoint) {
+  type(Calculation)
+  description (Update the travel itinerary)
+  collect {
+   //the intinerary that is updated
+    input (travellingboolean) {
+      type (TravelingBooleanConcept)
+      min (Required)
+    }
+  }
+  output (TravelItineraryConcept)
+}

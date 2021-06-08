@@ -1,0 +1,5 @@
+train (t-6un32rm8ndr9e0idbl27ssog9) {
+  utterance ("[g:CreateTravelItinerary,v:TravelingBooleanConcept:true] guide me to the (office)[v:LocationTypeConcept:office] of (Jorge Iranzo)[v:LocationOwnerConcept:'Jorge Iranzo']")
+  plan (Y2BlUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCHUOCTn5xYkpmf518OlIMZIIspH1JZkAqTVkR3QWZeulN+fk5qYh5MCQsDIwMTAzOQZgCyIBAGkOQA)
+  last-modified (1561589744547)
+}

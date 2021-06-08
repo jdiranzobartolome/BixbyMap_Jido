@@ -1,0 +1,15 @@
+train (t-m09aodiz8rgtrk9rcf2x3clvs) {
+  utterance ([g:UpdateTravelItineraryRemoteEndpoint,v:TravelingBooleanConcept:true] instructions)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDCAA5QMA)
+  last-modified (1561599935083)
+}
+train (t-mkgeoy9af5d975mb28savyef9) {
+  utterance ("[g:vada.jido.CreateTravelItinerary,v:vada.jido.TravelingBooleanConcept:true] guide me to the (VADA)[v:LocationOwnerConcept:VADA] (lab)[v:vada.jido.LocationTypeConcept:lab]")
+  plan (Y2BlUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCHUOCTn5xYkpmf518OlIMZIIspH1JZkAqTVkR3QWZeulN+fk5qYh5MCQsDIwMTAzOQZgCyIBAGkOQA)
+  last-modified (1561653924161)
+}
+train (t-mz7f8kratwh9pdotb0o1ng28h) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:this,r:FindLocation] what is this?)
+  plan (Y2BmkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGWQxtYRUFqTCtDExMAIxA5BkZAABZiAGiTEAAA==)
+  last-modified (1561599926777)
+}

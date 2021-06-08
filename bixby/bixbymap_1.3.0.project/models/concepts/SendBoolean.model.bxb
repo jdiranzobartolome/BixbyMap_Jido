@@ -1,0 +1,6 @@
+enum (SendBooleanConcept) {
+  description (for entering into the send program)
+  //como aun no entiendo booleanos lo hago con enum
+ symbol (send)
+
+}

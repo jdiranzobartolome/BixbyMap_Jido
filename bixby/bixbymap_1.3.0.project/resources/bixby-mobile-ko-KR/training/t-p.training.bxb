@@ -1,0 +1,5 @@
+train (t-p2u2w946yvqofo795kae5sbz1) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send] 가는 방법을 폰에 보내줘)
+  plan (Y2BmUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGGRQlTrl5+ekJsINYmJgBGIGIMnIAAJMEAwA)
+  last-modified (1561544750062)
+}

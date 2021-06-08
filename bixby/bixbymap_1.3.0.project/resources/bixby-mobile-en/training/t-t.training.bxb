@@ -1,0 +1,10 @@
+train (t-t8g7e5t4w826sz1vgkrjuhas4) {
+  utterance ("[g:LocationConcept] is (professor Smith)[v:LocationOwnerConcept:'professor Smith']'s (office)[v:LocationTypeConcept:office] around here?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561597066490)
+}
+train (t-twnvojbwg1srmadf2c6y0tlcu) {
+  utterance ("[g:LocationConcept,v:LocationTypeConcept:here?] is it here? ")
+  plan (Y2BmkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGWQxtYRUFqTCtDExMAIxA5BkZAABJggGAA==)
+  last-modified (1561589745582)
+}

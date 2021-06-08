@@ -1,0 +1,25 @@
+action (FindLocation) {
+  description (Action for finding a location)
+  type (Calculation)
+  collect {
+    input (type) {
+      type (LocationTypeConcept)
+      min (Required)
+    }
+    input (owner) {
+      type (LocationOwnerConcept)
+      min (Optional)
+       default-init {
+         intent {
+           goal {LocationOwnerConcept}
+           value {
+             LocationOwnerConcept ("null")
+           }
+         }
+       }
+
+    }  
+ }
+
+  output (LocationConcept)
+}

@@ -1,0 +1,6 @@
+enum (ItineraryStateConcept) {
+ description (State of a travel)
+ symbol (ongoing)
+ symbol (finished)
+ symbol (error)
+}

@@ -1,0 +1,20 @@
+train (t-vdtyg2nrpza6h3ael3m4k60ld) {
+  utterance ("[g:LocationConcept,r:IsThere] is (professor Smith)[v:LocationOwnerConcept:'professor Smith']'s (office)[v:LocationTypeConcept:office] around here?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561653528162)
+}
+train (t-vjyzb2mzuoiucohx6ld3m8mkx) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:FindLocation] where is the (man's bathroom)[v:LocationTypeConcept:'bathroom for men']?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561644084150)
+}
+train (t-vp4y5n7xb1ccwr5fun315oyxb) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send] send the instructions to my phone)
+  plan (Y2BmUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGGRQlTrl5+ekJsINYmJgBGIGIMnIAAJMEAwA)
+  last-modified (1561589745783)
+}
+train (t-vvvnkqs9tjgttsud0h5lo3vic) {
+  utterance ([g:UpdateTravelItineraryRemoteEndpoint:continue:TravelItineraryConcept] keep guiding)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDAwwGgA=)
+  last-modified (1561594639824)
+}

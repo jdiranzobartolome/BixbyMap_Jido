@@ -1,0 +1,10 @@
+train (t-m9qsqvvfdwse6g63jew6eb0f8) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (휴게실)[v:LocationTypeConcept:휴게실]이 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561644190823)
+}
+train (t-ml94xixow0wwcq82gryoe001a) {
+  utterance ("[g:LocationConcept,r:FindLocation] (스미스 교수님)[v:LocationOwnerConcept:'스미스 교수님']의 (교수실)[v:LocationTypeConcept:교수실] 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561661932333)
+}

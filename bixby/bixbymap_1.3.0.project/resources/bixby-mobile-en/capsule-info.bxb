@@ -1,0 +1,19 @@
+description {
+  displayName (Jido)
+  companyName (VADA)
+  iconUrl (/images/icons/jido.png)
+  description (Help visually impaired people (blind) to use smart tactile map and find their way through voice instructions.)
+  websiteUrl (http://theaim.org/)
+  termsUrl (http://theaim.org/terms-of-use)
+  privacy-policy-url (http://theaim.org/privacy)
+search-keywords {
+  keyword (map)
+  keyword (accesibility)
+  keyword (visually impaired)
+  keyword (blind)
+}
+dispatch-name (jido)
+dispatch-aliases {
+alias (chido)
+}
+}

@@ -1,0 +1,13 @@
+dialog (Result) {
+    match {
+        LocationConcept (locationResult) {
+        from-output: IsThere (isThereAction)
+     }
+   }
+      if (locationResult.type == 'unknown') {
+        template ("Sorry, that is not around here")
+      }
+      else {
+        template ("Yes, there is one around here!")
+   }
+  }

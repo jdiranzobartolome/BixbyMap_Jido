@@ -1,0 +1,10 @@
+train (t-z6foo31b8ezft6whvhpxkny9j) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send] send me the instructions to the phone)
+  plan (Y2BmUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGGRQlTrl5+ekJsINYmJgBGIGIMnIAAJMEAwA)
+  last-modified (1561589745848)
+}
+train (t-za9f0l9s9vo7590kl5dhlinb5) {
+  utterance ("[g:LocationConcept] Where is (Luis Cavazos)[v:LocationOwnerConcept:'Luis Cavazos']' (Office)[v:LocationTypeConcept:office]?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561589745904)
+}

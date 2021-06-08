@@ -1,0 +1,10 @@
+train (t-ofk7zs5ljfausip283m3bourj) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:null,v:LocationOwnerConcept:null,r:IsThere] 여기 근처에 화산이 있어?)
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561656316226)
+}
+train (t-on0znw4lumklrmwgi6r8xkkdb) {
+  utterance ([g:UpdateTravelItineraryRemoteEndpoint,v:TravelingBooleanConcept:true] 길을 계속 알려줘)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDCAA5QMA)
+  last-modified (1561599768456)
+}

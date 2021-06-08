@@ -1,0 +1,5 @@
+train (t-fxavn2wxmjbt9zthfoxx3oml6) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:FindLocation] Where is the (elevator)[v:LocationTypeConcept:elevator]?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599471109)
+}

@@ -1,0 +1,10 @@
+train (t-06q5fz56q56mizgtaoarb5b8y) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:null,v:LocationOwnerConcept:null,r:IsThere] 여기 근처에 슈퍼맨이 있어?)
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561658147386)
+}
+train (t-0fh5n1xewbmexlac54byi1jl6) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send,v:LocationOwnerConcept:null,v:LocationTypeConcept:null] 폰에 보내줘)
+  plan (Y2BlUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGOQQSmHK/MvzUotgRsliyodUFqTCpGVQbXLKz89JTYS7g4WBkYGJgRlIMwBZEAgDIDGoHAA=)
+  last-modified (1561598907399)
+}

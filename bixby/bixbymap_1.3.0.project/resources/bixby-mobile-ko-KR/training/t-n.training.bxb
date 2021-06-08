@@ -1,0 +1,5 @@
+train (t-n8uanhj5xdysb1yfiny5lwxpl) {
+  utterance ("[g:CreateTravelItinerary,v:TravelingBooleanConcept:true] (스미스 교수님)[v:LocationOwnerConcept:'스미스 교수님'] (교수실)[v:LocationTypeConcept:교수실]로 가이드 해줘")
+  plan (Y2BlUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCHUOCTn5xYkpmf518OlIMZIIspH1JZkAqTVkR3QWZeulN+fk5qYh5MCQsDIwMTAzOQZgCyIBAGkOQA)
+  last-modified (1561663767617)
+}

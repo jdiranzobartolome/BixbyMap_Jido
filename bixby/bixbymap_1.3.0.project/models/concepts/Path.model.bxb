@@ -1,0 +1,3 @@
+text (PathConcept) {
+  description (Contains the path to a location when applicable)
+}

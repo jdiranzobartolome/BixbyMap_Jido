@@ -1,0 +1,11 @@
+ dialog (Result) {
+   // bind the variable "rollResult" to the result 
+   match {
+     LocationConcept (this)
+   }
+   // define a condition that changes the dialog depending on whether there
+   // is one or more dice rolls
+  if (size(this) > 1) {
+    template("I did not understand, sorry.")
+  }
+}

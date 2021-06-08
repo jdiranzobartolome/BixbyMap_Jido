@@ -1,0 +1,5 @@
+train (t-z2pyygpa85kqmgewgrfdtllht) {
+  utterance ("[g:LocationConcept,r:IsThere,v:LocationOwnerConcept:null] 근처에  (엘레베이터)[v:LocationTypeConcept:엘레베이터]가 있어?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561598751622)
+}

@@ -1,0 +1,10 @@
+hints {
+  uncategorized {
+    utterance (이거 뭐야?)
+    utterance (바다 연구실이 어디야?)
+    utterance (여기?)
+    utterance (여기 근처에 남자 화장실이 있어?)
+    utterance(휴게실로 가이드를 해줘)
+    utterance (가는 방법을 폰에 보내줘)
+  }
+}

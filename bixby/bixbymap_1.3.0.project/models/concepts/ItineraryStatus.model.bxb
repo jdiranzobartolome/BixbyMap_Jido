@@ -1,0 +1,23 @@
+structure (ItineraryStatusConcept) {
+  description (status of a travel)
+  property (correctLocation) {
+  type (ItineraryCorrectLocationConcept)
+  min (Required)
+ }
+ property (nextStep) {
+  type (ItineraryNextStepConcept)
+  min (Required)
+ } 
+  property (status) {
+  type (ItineraryStateConcept)
+  min (Required)
+ } 
+  property (sameLocation) {
+  type (ItinerarySameLocationConcept)
+  min (Optional)
+ }
+  property (destinationGifUrl) {
+    type(LocationGifUrlConcept)
+    min(Optional)
+  }
+}

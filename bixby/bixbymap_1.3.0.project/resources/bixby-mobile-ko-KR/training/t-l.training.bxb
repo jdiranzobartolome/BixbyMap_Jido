@@ -1,0 +1,15 @@
+train (t-l19en4v1szh83o5y9hm2uiw82) {
+  utterance ("[g:LocationConcept,r:FindLocation] (스미스 교수님)[v:LocationOwnerConcept:'스미스 교수님'] (교수실)[v:LocationTypeConcept:교수실] 어디에 있어?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561657762140)
+}
+train (t-l4a40wrh7rptp93jzh8yubwib) {
+  utterance ("[g:CreateTravelItinerary,v:TravelingBooleanConcept:true] (남자 화장실)[v:LocationTypeConcept:'남자 화장실']에 가이드 해줘")
+  plan (Y2BhUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCLUOCTn5xYkpmfF1JZkArTr4huQ2ZeulN+fk5qYh5MCTMDIwMTkGQA0iAIAXBRAA==)
+  last-modified (1561598383365)
+}
+train (t-l7ufa5mll9kklonjp9rz5hnbq) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:IsThere] 여기 근처에 (휴게실)[v:LocationTypeConcept:휴게실]이 있어?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561599261548)
+}

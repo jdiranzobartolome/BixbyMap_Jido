@@ -1,0 +1,19 @@
+action (CreateTravelItinerary) {
+  description (Creates a travel itinerary which is used for guiding the user)
+  type (Calculation)
+  collect {
+    input (travellingboolean) {
+      type (TravelingBooleanConcept)
+      min (Required)
+    }
+    input (type) {
+      type (LocationTypeConcept)
+      min (Required)
+    }
+    input (owner) {
+      type (LocationOwnerConcept)
+      min (Optional)
+    }
+  }
+  output (TravelItineraryConcept)
+}

@@ -1,0 +1,10 @@
+train (t-h58vy1lb8vtaj9wnhroftgvnb) {
+  utterance ("[g:LocationConcept,r:IsThere] is (VADA)[v:LocationOwnerConcept:VADA] (lab)[v:LocationTypeConcept:lab] around here?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561599505258)
+}
+train (t-hbphdi4c1u56uyi5t7fp3xk8u) {
+  utterance ("[g:LocationConcept,r:FindLocation] where is the (office)[v:LocationTypeConcept:office] of (professor Smith)[v:LocationOwnerConcept:'professor Smith']?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599535680)
+}

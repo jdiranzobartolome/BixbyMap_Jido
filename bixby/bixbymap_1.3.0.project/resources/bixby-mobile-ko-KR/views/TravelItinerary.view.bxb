@@ -1,0 +1,24 @@
+result-view {
+    match {
+        TravelItineraryConcept (travelItinerary) 
+   }
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            object-fit (Contain)
+            object-position (Top)
+            url ("${value(travelItinerary.destinationImgUrl)}")
+          }
+          image {
+            object-fit (Contain)
+            object-position (Top)
+            url ("${value(travelItinerary.destinationPhotoUrl)}")
+          }
+        }
+      }
+    }
+  }
+}

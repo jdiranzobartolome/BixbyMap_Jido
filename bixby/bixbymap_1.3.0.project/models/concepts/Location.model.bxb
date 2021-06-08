@@ -1,0 +1,28 @@
+structure (LocationConcept) {
+  description (location object)
+  property (type) {
+  type (LocationTypeConcept)
+  min (Required)
+ }
+ property (owner) {
+  type (LocationOwnerConcept)
+  min (Optional)
+    
+ } 
+  property (path) {
+  type (PathConcept)
+  min (Optional)
+ } 
+  property (img_url) {
+  type (LocationImgUrlConcept)
+  min (Optional)
+ } 
+  property (gif_url) {
+  type (LocationGifUrlConcept)
+  min (Optional)
+ }
+ property (photo_url) {
+ type (LocationPhotoUrlConcept)
+ min (Optional)
+ }
+}

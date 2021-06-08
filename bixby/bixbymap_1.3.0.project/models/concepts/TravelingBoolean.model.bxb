@@ -1,0 +1,7 @@
+enum (TravelingBooleanConcept) {
+  description (__boolean that indicates whether the user wants to travel or not__)
+  //como aun no entiendo booleanos lo hago con enum
+ symbol (true)
+ symbol (false) 
+
+}

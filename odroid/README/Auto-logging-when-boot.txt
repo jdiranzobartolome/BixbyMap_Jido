@@ -1,0 +1,36 @@
+In order to be able to use pulseaudio without activating its systemwide mode (which can come up with some security issues) the script 
+needs to be executed by a logged in user. For the system to be executed headless when booting the system, automatic log-in on boot of the user 
+needs to be allowed. 
+
+For that, the systemd unit file related to the service of one of the terminals need to be overriden. By running:
+$ sudo systemctl edit getty@tty1.service
+the editor will popup and the next code needs to be written (if systemctl edit command does not work, the directory and file can be normally created.
+
+
+###/etc/systemd/system/getty@tty1.service.d/override.conf###########
+-----------------------------------------------------------------------------------------------------------------------------------------
+[Service]
+ExecStart=
+ExecStart=-/sbin/agetty --noissue --autologin odroid %I $TERM
+Type=idle
+
+####################################################################
+
+From then on, the user 'odroid' will log-in automatically through tty1 (any other terminal can be used by changing their service unit in the same way)
+
+--------------------------------------------------------------------------------------------
+NOTA: It IS IMPORTANT TO MAKE THE USER ODROID TO BE ABLE TO LOG WITHOUT PASSWORD. FOR THAT WE HAVE TO EDIT THE SUDOERS FILE:
+
+Open a Terminal window. Type in sudo visudo. Add the following line to the END of the file (if not at the end it can be nullified by later entries):
+
+<username> ALL=NOPASSWD: ALL
+
+Replace <username> with your username (without the <>). This is assuming that Ubuntu has created a group with the same name as your user name, which is typical. You can alternately use the group users or any other such group you are in. Just make sure you are in that group. This can be checked by going to System -> Administration -> Users and Groups.
+
+Example:
+
+michael ALL=NOPASSWD: ALL
+
+Type in ^X (Ctrl+X) to exit. This should prompt for an option to save the file, type in Y to save.
+
+Log out, and then log back in. This should now allow you to run the sudo command without being prompted for a password.

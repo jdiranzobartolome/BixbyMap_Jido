@@ -1,0 +1,41 @@
+dialog (Result) {
+    match {
+        LocationConcept (locationResult) {
+        from-output: FindLocation (findLocationAction)
+     }
+   }
+   // define a condition which changes the dialog depending whether the user ask about a path or about where he/she is. template 
+   if (findLocationAction.type == 'this') {
+    if (locationResult.owner == 'null'){
+      if (locationResult.type == 'stairs') {
+      template ("This are the ${value(locationResult.type)} ")
+    } 
+      else {
+      template ("This is the ${value(locationResult.type)}")
+      }
+    } else {
+      template ("This is the ${value(locationResult.owner)} ${value(locationResult.type)}") 
+    }   
+   }
+   else-if (findLocationAction.type != 'this') {
+    if ((locationResult.type == 'office') && (locationResult.owner == 'unknown')) {
+        template ("Sorry, I could not understand the name of the professor whose office you are looking for")
+    }
+    else-if ((locationResult.type == 'lab') && (locationResult.owner == 'unknown')) {
+        template ("Sorry, I could not understand which lab you are looking for")
+    }
+    else-if  ((locationResult.type == 'unknown') && (locationResult.path == 'You need to ask about information related to a location first before being able to ask me that')){
+        template ("You need to ask about information related to a location first before being able to ask me that")
+    }
+        else-if  (locationResult.type == 'unknown') {
+        template ("Sorry, I did not understand")
+    }
+    else {
+        template ("${value(locationResult.path)}")
+    }
+  }
+}
+
+
+
+

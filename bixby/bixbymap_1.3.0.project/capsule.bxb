@@ -1,0 +1,19 @@
+capsule {
+  id (vada.jido)
+  version (1.3.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+    target (bixby-mobile-ko-KR)
+  }
+  store-sections {
+    section (TravelAndTransportation)
+    section (Productivity)
+    section (Local)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+}

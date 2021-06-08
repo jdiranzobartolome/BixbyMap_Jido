@@ -1,0 +1,17 @@
+vocab (LocationTypeConcept) {
+  // The vocab file has to define at least one value for enum if it is included in the vocab file.
+  // And this value does not have to be the same as the symbol
+  "bathroom for men" {"bathroom for men" "men's bathroom" "man's bathroom" "boy's bathroom"}
+  "bathroom for women" {"bathroom for women" "women's bathroom" "woman's bathroom" "girl's bathroom"} 
+  "elevator" {"elevator"}
+  "office" {"office"}  
+  "corridor" {"corridor"}
+  "entrance" {"entrance"} 
+  "break room" {"break room"}
+  "stairs" {"stairs"}
+  "lab" {"lab"}
+  "hall" {"hall"}  
+  "emergency exit" {"emergency exit"}
+  "starting point" {"starting point" "current location"}            
+  
+}

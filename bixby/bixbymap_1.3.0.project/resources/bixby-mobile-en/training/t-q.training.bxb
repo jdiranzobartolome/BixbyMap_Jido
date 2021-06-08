@@ -1,0 +1,5 @@
+train (t-qn0o0flrrwm3su15cruv9usgt) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send] send me the instructions)
+  plan (Y2BmUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGGRQlTrl5+ekJsINYmJgBGIGIMnIAAJMEAwA)
+  last-modified (1561589745396)
+}

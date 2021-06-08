@@ -1,0 +1,5 @@
+train (t-2z74x6zx3k2h47nwio9bv629i) {
+  utterance ("[g:LocationConcept,r:IsThere] 여기 근처에 (스미스 교수님)[v:LocationOwnerConcept:'스미스 교수님']의 (교수실)[v:LocationTypeConcept:교수실]이 있어?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561546071474)
+}

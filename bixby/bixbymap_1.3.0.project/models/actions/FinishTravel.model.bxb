@@ -1,0 +1,17 @@
+action (FinishTravel) {
+description (Finish the travel itinerary after completed)
+type (Commit)
+  collect {
+    input (travelItinerary) {
+      type (TravelItineraryConcept)
+      min (Required)
+      max(One)
+    }
+  }
+  
+  //confirm {
+   // by (viv.core.Confirmation)
+  //}
+
+  output (TravelItineraryConcept)
+}

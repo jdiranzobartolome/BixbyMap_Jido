@@ -1,0 +1,31 @@
+dialog (Result) {
+    match {
+        TravelItineraryConcept (travelItinerary) {
+          from-output: UpdateTravelItineraryRemoteEndpoint (updateTravelItinerary)
+        }
+    }
+   // define a condition which changes the dialog depending whether the user ask about a path or about where he/she is. template 
+   if (travelItinerary.status == 'ongoing') {
+      if (travelItinerary.correctLocation == 'false') {      
+        if (travelItinerary.sameLocation == 'true') {
+          template ("You are still in the same zone as before. It is okay, I will give you the instructions again.                                  ${value(travelItinerary.nextStep)}")
+        } else {
+          template ("That is not the next zone. It is okay, I will give you the instructions Again.                                        ${value(travelItinerary.nextStep)}")
+        }
+      } else {    
+        template("Great! you went to the next zone.Now, ${value(travelItinerary.nextStep)}")
+      }
+      } else-if (travelItinerary.status == 'error') {
+        if (travelItinerary.nextStep == 'no guide mode started') {
+          template("A guide tour needs to be created first by saying, guide me to, and the desired destination in order to use that command word")
+        } else-if (travelItinerary.nextStep == 'no office name') {
+          template("I am not sure what is the name of the professor whose office you want me to guide you to")
+        } else-if (travelItinerary.nextStep == 'no lab name') {
+          template("Sorry, I think I did not correctly understand the name of the laboratory you are looking for")
+        } else-if (travelItinerary.nextStep == 'unknown destination') {
+          template("Sorry, I do not know that destination.")
+        }
+      } else {
+        template ("Wow!! you reached your destination already! Congratulations. The tour has finished. You can keep using the   interactive map for ativating other guiding tour or for finding the diferent places. See you later!")
+     } 
+}

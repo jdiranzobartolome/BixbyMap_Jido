@@ -1,0 +1,33 @@
+dialog (Result) {
+    match {
+        LocationConcept (locationResult) {
+        from-output: FindLocation (findLocationAction)
+     }
+   }
+   // define a condition which changes the dialog depending whether the user ask about a path or about where he/she is. template 
+   if (findLocationAction.type == '이거') {
+    if (locationResult.owner == 'null'){
+      template ("이것은 ${value(locationResult.type)}입니다")
+    } else {
+      template ("이것은 ${value(locationResult.owner)} ${value(locationResult.type)}입니다") 
+    }   
+   }
+   else-if (findLocationAction.type != 'this') {
+    if ((locationResult.type == '교수실') && (locationResult.owner == 'unknown')) {
+        template ("죄송한데 누구의 교수실을 찾고 싶으신지 잘 못 알아들었었습니다.")
+    }
+    else-if ((locationResult.type == '연구실') && (locationResult.owner == 'unknown')) {
+        template ("죄송한데 어느 연구실을 찾고 싶으신지 잘 못 알아들었습니다.")
+    }
+    else-if  ((locationResult.type == 'unknown') && (locationResult.path == '그거 물어보시기 전에 일단 궁금하신 위치에 대해 물어보셔야합니다')){
+        template ("그거 물어보시기 전에 일단 궁금하신 위치에 대해 물어보셔야합니다")
+    }
+    else-if  (locationResult.type == 'unknown') {
+        template ("죄송한데 못 알아들었습니다")
+    }
+    else {
+        template ("${value(locationResult.path)}")
+    }
+  }
+}
+

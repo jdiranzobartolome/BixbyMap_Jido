@@ -1,0 +1,5 @@
+train (t-de4rfqlcz9ze6ixbr7kpzvtpw) {
+  utterance ("[g:LocationConcept,r:IsThere,v:LocationOwnerConcept:null] is there a (break room)[v:LocationTypeConcept:'break room'] around here?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561596877582)
+}

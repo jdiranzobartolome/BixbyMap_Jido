@@ -1,0 +1,5 @@
+train (t-ktz3jbdigdtdapiuh1en45uh4) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (엘레베이터)[v:LocationTypeConcept:엘레베이터] 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561661561034)
+}

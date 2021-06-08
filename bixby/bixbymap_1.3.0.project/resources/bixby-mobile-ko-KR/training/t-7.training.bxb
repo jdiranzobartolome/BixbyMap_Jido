@@ -1,0 +1,5 @@
+train (t-7d1uytf9l6wis58iqu0eeu2ak) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:여기?] 여기야?)
+  plan (Y2BmkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGWQxtYRUFqTCtDExMAIxA5BkZAABJggGAA==)
+  last-modified (1561546022708)
+}

@@ -1,0 +1,5 @@
+train (t-lkxc35go0imctoiycj6q3c1i7) {
+  utterance ([g:TravelItineraryConcept,v:TravelingBooleanConcept:true] give me more directions)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDCDABMEA)
+  last-modified (1561590728960)
+}

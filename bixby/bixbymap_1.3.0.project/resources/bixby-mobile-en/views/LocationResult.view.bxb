@@ -1,0 +1,47 @@
+result-view {
+  match {
+    LocationConcept (locationResult)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          if (locationResult.type != 'unknown') {
+            image {
+              object-fit (Contain)
+              object-position (Top)
+              url ("${value(locationResult.gif_url)}")
+            }
+             image {
+               object-fit (Contain)
+               object-position (Top)
+               url ("${value(locationResult.photo_url)}")
+            }
+            if (locationResult.owner == 'null'){
+              if (locationResult.type == 'stairs') {
+                single-line {
+                  text {
+                    value ("This are the ${value(locationResult.type)}")
+                  }
+                }
+              } else {
+                single-line {
+                  text {
+                    value ("This is the ${value(locationResult.type)}")
+                  }
+                }
+              }
+              } else {  
+                single-line {
+                  text {
+                    value ("This is the ${value(locationResult.type)} of ${value(locationResult.owner)}")
+                  }
+                } 
+             }   
+          }
+        }
+      }
+    }
+  }
+}

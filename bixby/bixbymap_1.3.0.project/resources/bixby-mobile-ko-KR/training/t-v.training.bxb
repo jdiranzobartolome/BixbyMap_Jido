@@ -1,0 +1,5 @@
+train (t-vt85ukhe1qx2fr1mmrg854d01) {
+  utterance ([g:UpdateTravelItineraryRemoteEndpoint,v:TravelingBooleanConcept:true] 계속 알려줘)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDCAA5QMA)
+  last-modified (1561599787982)
+}

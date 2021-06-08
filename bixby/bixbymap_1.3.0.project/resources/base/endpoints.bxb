@@ -1,0 +1,36 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (FindLocation) {
+      accepted-inputs (type, owner)
+      remote-endpoint ("{remote.url}/location") {
+        method (POST)
+      }
+    }
+    action-endpoint (IsThere) {
+      accepted-inputs (type, owner)
+      remote-endpoint ("{remote.url}/is_there") {
+        method (POST)
+      }
+    }
+    action-endpoint (CreateTravelItinerary) {
+      accepted-inputs (travellingboolean, type, owner)
+      remote-endpoint ("{remote.url}/create_travel_itinerary") {
+        method (POST)
+      }
+    }
+    
+    action-endpoint (UpdateTravelItineraryRemoteEndpoint) {
+      accepted-inputs (travellingboolean)
+      remote-endpoint ("{remote.url}/update_itinerary_endpoint") {
+        method (POST)
+      }
+    }
+    
+     action-endpoint (SendLocationPhoneRemoteEndpoint) {
+      accepted-inputs (sendBoolean, type, owner)
+      remote-endpoint ("{remote.url}/send_location_phone_endpoint") {
+        method (POST)
+      }
+    }
+  }
+}

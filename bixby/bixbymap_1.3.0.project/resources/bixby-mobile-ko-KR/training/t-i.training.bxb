@@ -1,0 +1,10 @@
+train (t-i9gmbg7kkljtsjn637qe7jtqu) {
+  utterance ("[g:CreateTravelItinerary,v:TravelingBooleanConcept:true] (스미스 교수님)[v:LocationOwnerConcept:'스미스 교수님']의 (교수실)[v:LocationTypeConcept:교수실]로 가이드 해줘")
+  plan (Y2BlUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCHUOCTn5xYkpmf518OlIMZIIspH1JZkAqTVkR3QWZeulN+fk5qYh5MCQsDIwMTAzOQZgCyIBAGkOQA)
+  last-modified (1561663710326)
+}
+train (t-idaw64lcqgd6rh751iaybmoca) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (엘레베이터)[v:LocationTypeConcept:엘레베이터]는 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561661416358)
+}

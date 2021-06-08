@@ -1,0 +1,15 @@
+train (t-y784fq0hsfmjan9gar1m524j1) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (남자 화장실)[v:LocationTypeConcept:'남자 화장실'] 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561657603342)
+}
+train (t-y7eufin80d4eu0zgt1lm3568z) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:이거,r:FindLocation] 이거 뭐야?)
+  plan (Y2BmkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGWQxtYRUFqTCtDExMAIxA5BkZAABZiAGiTEAAA==)
+  last-modified (1561599990650)
+}
+train (t-yx3zzerp0hqusgxigtplg7vte) {
+  utterance ([g:SendPhoneConfirmationConcept,r:SendLocationPhoneRemoteEndpoint,v:LocationTypeConcept:null] 가는 길을 보내줘)
+  plan (Y2BhUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGGQRSmHKQioLUmEmyaCa5JSfn5OaCLeHmYGRgQlIMgBpEIQAEJ8JxAMA)
+  last-modified (1561599407799)
+}

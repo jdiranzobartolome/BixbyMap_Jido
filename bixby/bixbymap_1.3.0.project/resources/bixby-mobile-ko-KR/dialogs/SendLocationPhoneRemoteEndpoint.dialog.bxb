@@ -1,0 +1,25 @@
+dialog (Result) {
+    match {
+        SendPhoneConfirmationConcept (locationResult) {
+        from-output: SendLocationPhoneRemoteEndpoint (sendLocationAction)
+     }
+   }
+   if  (locationResult.type == 'unknown') {
+    if (locationResult.path == '길을 알아보기 전에 가시고 싶으신 위치를 알려주세요') {
+      template ("어디로 갈지에 대한 방법을 알아보고 싶으신지 모릅니다")
+    } else-if (locationResult.path == '그거 물어보시기 전에 일단 궁금하신 위치에 대해 물어보셔야합니다') {
+          template ("그거 물어보시려면 일단 궁금하신 위치에 대해 물어보셔야합니다")
+  } else {
+      template ("죄송한데 못 알아들었습니다")
+   }
+}
+   // we sent the info to the server and he responded whether the place exists or not
+   else {
+      if (locationResult.owner == 'null') {
+        template ("${value(locationResult.type)}에 가는 방법을 폰에 전송했습니다")
+      }
+      else {
+        template ("${value(locationResult.owner)} ${value(locationResult.type)} 에 가는 방법을 폰에 전송했습니다")
+   }
+  }
+}

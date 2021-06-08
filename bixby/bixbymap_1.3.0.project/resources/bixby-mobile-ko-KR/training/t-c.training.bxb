@@ -1,0 +1,10 @@
+train (t-cqh1tzw3zpl8cc98xqmvh0anl) {
+  utterance ([g:LocationConcept,v:LocationOwnerConcept:null,r:IsThere,v:LocationTypeConcept:null] 여기 근처에 뭐뭐 있어?)
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561661572579)
+}
+train (t-cwvb3sdjmpzdqeni9rogwfbbw) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:FindLocation] (계단)[v:LocationTypeConcept:계단]이 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599128676)
+}

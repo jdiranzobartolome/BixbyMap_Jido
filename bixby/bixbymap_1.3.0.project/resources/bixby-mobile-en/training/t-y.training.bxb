@@ -1,0 +1,5 @@
+train (t-yxtrbekoge4am8eqqdb69gpf7) {
+  utterance ("[g:CreateTravelItinerary,v:TravelingBooleanConcept:true] guide me to the (bathroom for men)[v:LocationTypeConcept:'bathroom for men']")
+  plan (Y2BhUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCLUOCTn5xYkpmfF1JZkArTr4huQ2ZeulN+fk5qYh5MCTMDIwMTkGQA0iAIAXBRAA==)
+  last-modified (1561589746055)
+}

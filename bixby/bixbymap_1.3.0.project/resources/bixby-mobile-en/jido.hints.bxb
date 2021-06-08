@@ -1,0 +1,10 @@
+hints {
+  uncategorized {
+    utterance (what is this?)
+    utterance (where is the office of professor Smith?)
+    utterance (here?)
+    utterance (Is there a bathroom for men around here?)
+    utterance (guide me to the break room)
+    utterance (Send me the directions)
+  }
+}

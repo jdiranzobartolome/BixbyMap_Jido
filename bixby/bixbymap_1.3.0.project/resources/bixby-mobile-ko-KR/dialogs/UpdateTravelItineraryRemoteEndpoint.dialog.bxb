@@ -1,0 +1,31 @@
+dialog (Result) {
+    match {
+        TravelItineraryConcept (travelItinerary) {
+        from-output: UpdateTravelItineraryRemoteEndpoint (updateTravelItinerary)
+     }
+   }
+   // define a condition which changes the dialog depending whether the user ask about a path or about where he/she is. template 
+   if (travelItinerary.status == 'ongoing') {
+      if (travelItinerary.correctLocation == 'false') {      
+        if (travelItinerary.sameLocation == 'true') {
+          template ("그 곳은 아까랑 같은 장소이지만 걱정 말아요. 가는 길을 다시 한 번 더 알려줄게요. 일단, ${value(travelItinerary.nextStep)}")
+        } else {
+          template ("그 곳은 제가 말했었던 다음 단계에 해당하는 위치 아니지만 걱정 말아요. 거기서부터 가는 길을 다시 알려줄테니깐요. 일단, ${value(travelItinerary.nextStep)}")
+        }
+    } else {    
+      template("잘 하셨습니다! 제가 말했었던 단계로 정확히 이동하셨습니다. 지금은 ${value(travelItinerary.nextStep)}")
+    }
+  } else-if (travelItinerary.status == 'error') {
+      if (travelItinerary.nextStep == 'no guide mode started') {
+          template("우선 가이드를 시작하셔야합니다")
+    } else-if (travelItinerary.nextStep == 'no office name') {
+          template("죄송한데 누구의 교수실을 찾고 싶으신지 잘 못 알아들었었습니다.")
+    } else-if (travelItinerary.nextStep == 'no lab name') {
+          template("죄송한데 어느 연구실을 찾고 싶으신지 잘 못 알아들었습니다.")
+    } else-if (travelItinerary.nextStep == 'unknown destination') {
+          template("죄송한데 못 알아들었습니다")
+    }
+  } else {
+    template ("와! 목적지에 도착하였습니다!")
+  } 
+}

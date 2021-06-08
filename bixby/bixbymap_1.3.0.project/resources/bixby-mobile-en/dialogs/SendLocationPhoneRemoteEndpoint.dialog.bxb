@@ -1,0 +1,25 @@
+dialog (Result) {
+    match {
+        SendPhoneConfirmationConcept (locationResult) {
+          from-output: SendLocationPhoneRemoteEndpoint (sendLocationAction)
+        }
+    }
+    if  (locationResult.type == 'unknown') {
+      if (locationResult.path == 'do not know which directions you want') {
+        template ("I need to know the place whose directions you want to receive")
+      } else-if (locationResult.path == 'You need to ask about information related to a location first before being able to ask me that') {
+        template ("You need to ask about information related to a location first before being able to ask me that")
+      } else {
+        template ("Sorry, I did not understand")
+      }
+   }
+   // we sent the info to the server and he responded whether the place exists or not
+   else {
+     if (locationResult.owner == 'null') {
+       template ("Sent instructions to the phone to reach the ${value(locationResult.type)}")
+     }
+     else {
+       template ("Sent instructions to the phone to reach ${value(locationResult.owner)} ${value(locationResult.type)}")
+     }
+   }
+}

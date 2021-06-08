@@ -1,0 +1,15 @@
+train (t-e5iv6jztrj05vw36htji196b3) {
+  utterance ("[g:LocationConcept,r:IsThere] is the (office)[v:LocationTypeConcept:office] of (professor Smith)[v:LocationOwnerConcept:'professor Smith'] around here?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561594619510)
+}
+train (t-eumm7yacoc7nm1mfay8ue180k) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send,v:LocationTypeConcept:null,v:LocationOwnerConcept:null] send me the path to reach there)
+  plan (Y2BlUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGOQQSmHK/MvzUotgRsliyodUFqTCpGVQbXLKz89JTYS7g4WBkYGJgRlIMwBZEAgDIDGoHAA=)
+  last-modified (1561599332013)
+}
+train (t-ewizf2zbuewn7cvmkjsx1stc3) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:FindLocation] Where is the (emergency exit)[v:LocationTypeConcept:'emergency exit']?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599469831)
+}

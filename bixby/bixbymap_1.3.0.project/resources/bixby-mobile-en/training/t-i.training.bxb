@@ -1,0 +1,10 @@
+train (t-ia7bffqfoa4pb90yk9tbwbfyk) {
+  utterance ([g:LocationConcept,v:LocationOwnerConcept:null,r:IsThere,v:LocationTypeConcept:null] is there a giant around here?)
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561653228771)
+}
+train (t-idxix3fcn8gcsawfbwyykknae) {
+  utterance ([g:UpdateTravelItineraryRemoteEndpoint,v:TravelingBooleanConcept:true] Keep giving me directions)
+  plan (Y2BmUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYdBFqAgtSEksSUVTF5Sam1+S6pqXUpCfmVfCoIhuYGZeulN+fk5qYh7MRCYGRiBmAJKMDCAA5QMA)
+  last-modified (1561599699863)
+}

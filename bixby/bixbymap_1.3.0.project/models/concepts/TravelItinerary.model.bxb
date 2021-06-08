@@ -1,0 +1,28 @@
+structure (TravelItineraryConcept) {
+  description (travel itinerary)
+  property (correctLocation) {
+  type (ItineraryCorrectLocationConcept)
+  min (Required)
+ }
+ property (nextStep) {
+  type (ItineraryNextStepConcept)
+  min (Required)
+ } 
+  property (status) {
+  type (ItineraryStateConcept)
+  min (Required)
+ } 
+  property (sameLocation) {
+  type (ItinerarySameLocationConcept)
+  min (Optional)
+ }
+  property (destinationImgUrl) {
+    type(LocationImgUrlConcept)
+    min(Optional)
+  }
+  property (destinationPhotoUrl) {
+    type(LocationPhotoUrlConcept)
+    min(Optional)
+  }
+}
+

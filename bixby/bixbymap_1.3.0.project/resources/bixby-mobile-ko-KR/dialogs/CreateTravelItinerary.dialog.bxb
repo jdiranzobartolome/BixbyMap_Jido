@@ -1,0 +1,24 @@
+dialog (Result) {
+    match {
+        TravelItineraryConcept (travelItinerary) {
+        from-output: CreateTravelItinerary (createTravelItinerary)
+     }
+   }
+  
+     if (travelItinerary.nextStep == 'no office name') {
+        template ("죄송한데 누구의 교수실을 찾고 싶으신지 잘 못 알아들었었습니다.")
+    }
+    else-if (travelItinerary.nextStep == 'no lab name') {
+        template ("죄송한데 어느 연구실을 찾고 싶으신지 잘 못 알아들었습니다.")
+    }
+    else-if (travelItinerary.nextStep == '오! 손가락이 벌써 거기네요!') {
+    template ("오! 손가락이 벌써 거기네요!")
+    }
+    else-if  (travelItinerary.nextStep == 'unknown') {
+        template ("죄송한데 잘 못 알아들었습니다")
+    }
+    else {
+   // define a condition which changes the dialog depending whether the user ask about a path or about where he/she is. template 
+    template("알겠습니다! 같이 거기로 갑시다! 한 단계씩 가이드를 해줄게요. 길을 잃으시거나 단계별 이동을 다 하신다면, '계속' 혹은 '계속 알려줘' 라고 하시면 계속 가이드를 해줄게요. 일단, ${value(travelItinerary.nextStep)}")
+  }
+}

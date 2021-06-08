@@ -1,0 +1,15 @@
+train (t-bgz39trpc6i60fafjeea0x7gi) {
+  utterance ("[g:LocationConcept,r:IsThere] is (VADA)[v:LocationOwnerConcept:VADA] (lab)[v:LocationTypeConcept:lab] around?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561589744735)
+}
+train (t-bncg72onkt336ka4zulr0uog2) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:FindLocation] where are the (stairs)[v:LocationTypeConcept:stairs]?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599022860)
+}
+train (t-bucnvn084g04jnwh9qi03rq3o) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null,r:FindLocation] Where is the (men's bathroom)[v:LocationTypeConcept:'bathroom for men']?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599142823)
+}

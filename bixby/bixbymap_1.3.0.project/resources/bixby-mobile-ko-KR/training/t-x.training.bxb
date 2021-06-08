@@ -1,0 +1,5 @@
+train (t-xescbkendt6m5hipzgt7x772e) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (남자 화장실)[v:LocationTypeConcept:'남자 화장실']이 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561599173239)
+}

@@ -1,0 +1,5 @@
+train (t-ghw5lw7ixhzht04oa8wz1651s) {
+  utterance ([g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send,v:LocationOwnerConcept:null,v:LocationTypeConcept:null] send path to my phone)
+  plan (Y2BlUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGOQQSmHK/MvzUotgRsliyodUFqTCpGVQbXLKz89JTYS7g4WBkYGJgRlIMwBZEAgDIDGoHAA=)
+  last-modified (1561599521422)
+}

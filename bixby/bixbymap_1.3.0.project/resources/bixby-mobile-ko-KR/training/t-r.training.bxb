@@ -1,0 +1,5 @@
+train (t-r6jqb5wlcd287is15q4r0lqgz) {
+  utterance ([g:LocationConcept,v:LocationTypeConcept:여기?] 여기?)
+  plan (Y2BmkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGWQxtYRUFqTCtDExMAIxA5BkZAABJggGAA==)
+  last-modified (1561546024020)
+}

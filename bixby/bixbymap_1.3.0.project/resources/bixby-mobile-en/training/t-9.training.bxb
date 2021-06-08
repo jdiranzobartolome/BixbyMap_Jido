@@ -1,0 +1,5 @@
+train (t-9pslug9zxkgh6qvy9h4dokbvb) {
+  utterance ("[g:LocationConcept,r:FindLocation] where is (Vada)[v:LocationOwnerConcept:VADA] (lab)[v:LocationTypeConcept:lab]?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561598971708)
+}

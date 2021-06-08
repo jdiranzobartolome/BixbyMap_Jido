@@ -1,0 +1,10 @@
+train (t-w42awus2eb72vaop4gwcy4wk2) {
+  utterance ("[g:LocationConcept,r:IsThere,v:LocationOwnerConcept:null] 여기 근처에 (여자 화장실)[v:LocationTypeConcept:'여자 화장실']이 있어?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561598674152)
+}
+train (t-w4e1g6eg4t2tsexj94j9i0k9n) {
+  utterance ("[g:CreateTravelItinerary,v:TravelingBooleanConcept:true] (휴게실)[v:LocationTypeConcept:휴게실]으로 가이드 해줘?")
+  plan (Y2BhUChLTEnUy8pMydcLKUosS83xLMnMSy1KLKp0zs9LTi0oYZBHqHAuSk0sSUVTxyCLUOCTn5xYkpmfF1JZkArTr4huQ2ZeulN+fk5qYh5MCTMDIwMTkGQA0iAIAXBRAA==)
+  last-modified (1561598470699)
+}

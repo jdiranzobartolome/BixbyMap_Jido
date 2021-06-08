@@ -1,0 +1,10 @@
+train (t-pgkiw8w6snwgkbk2v0qpweyf3) {
+  utterance ("[g:LocationConcept,r:IsThere,v:LocationOwnerConcept:null] is there a (bathroom for men)[v:LocationTypeConcept:'bathroom for men'] around?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561596918409)
+}
+train (t-pide83bhjvt5bx7koljif2y6d) {
+  utterance ("[g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send] send me the instructions for going to the (bathroom for women)[v:LocationTypeConcept:'bathroom for women']")
+  plan (Y2BhUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGGQRSmHKQioLUmEmyaCa5JSfn5OaCLeHmYGRgQlIMgBpEIQAEB8sCgA=)
+  last-modified (1561589745533)
+}

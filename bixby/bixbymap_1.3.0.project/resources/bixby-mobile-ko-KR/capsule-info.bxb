@@ -1,0 +1,18 @@
+description {
+  displayName (Jido)
+  companyName (VADA)
+  iconUrl (/images/icons/jido.png)
+  description (시각장애인 위해 음성과 터치를 통해 사용할수있는 스마트 지도)
+  websiteUrl (http://theaim.org/)
+  termsUrl (http://theaim.org/terms-of-use)
+  privacy-policy-url (http://theaim.org/privacy)
+search-keywords {
+  keyword (지도)
+  keyword (accesibility)
+  keyword (시각장애인)
+}
+dispatch-name (jido)
+dispatch-aliases {
+alias (chido)
+}
+}

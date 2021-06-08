@@ -1,0 +1,27 @@
+dialog (Result) {
+    match {
+        TravelItineraryConcept (travelItinerary) {
+          from-output: CreateTravelItinerary (createTravelItinerary)
+        }
+    }
+  
+    if (travelItinerary.nextStep == 'no office name') {
+      template ("Sorry, I could not understand the name of the professor whose office you are looking for")
+    }
+    else-if (travelItinerary.nextStep == 'no lab name') {
+      template ("Sorry, I could not understand which lab you are looking for")
+    }
+    else-if (travelItinerary.nextStep == 'oh! but your finger is already there!') {
+    template ("oh! but your finger is already there!")
+    }
+    else-if  ((travelItinerary.nextStep == 'unknown') || (travelItinerary.nextStep == 'unknown destination')) {
+      template ("Sorry, I did not understand")
+    }
+    else {
+   // define a condition which changes the dialog depending whether the user ask about a path or about where he/she is. template 
+     template("Great! Let's go there together! I will guide you to the next zone, step by step, in each new zone, or when at lost, just say, keep giving me directions or, next, and I will give you the next step. First, ${value(travelItinerary.nextStep)}")
+    } 
+}
+
+
+

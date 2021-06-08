@@ -1,0 +1,39 @@
+result-view {
+  match {
+    LocationConcept (locationResult)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          if (locationResult.type != 'unknown') {
+            image {
+              object-fit (Contain)
+              object-position (Top)
+              url ("${value(locationResult.gif_url)}")
+            }
+            image {
+              object-fit (Contain)
+              object-position (Top)
+              url ("${value(locationResult.photo_url)}")
+            }
+           if (locationResult.owner == 'null'){
+             single-line {
+               text {
+                 value ("이것은 ${value(locationResult.type)}입니다")
+               }
+             }
+           } else {
+             single-line {
+               text {
+                 value ("이것은 ${value(locationResult.owner)} ${value(locationResult.type)}입니다 ")
+               }
+            } 
+           }   
+         }
+        }  
+       }
+     }
+   }
+}

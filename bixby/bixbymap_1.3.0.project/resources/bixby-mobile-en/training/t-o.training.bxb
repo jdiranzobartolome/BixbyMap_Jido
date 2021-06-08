@@ -1,0 +1,5 @@
+train (t-oze3bv5n8kzvkmys2gd5hgv63) {
+  utterance ("[g:SendPhoneConfirmationConcept,v:SendBooleanConcept:send] send me the instructions for going to (VADA)[v:LocationOwnerConcept:VADA] (lab)[v:LocationTypeConcept:lab]")
+  plan (Y2BlUCtLTEnUy8pMydcLTs1LCcjIz0t1zs9LyyzKTSzJzM8DspNTC0oYNFHV+eQng6XB6oNSc/NLUl3zUgryM/NKGOQQSmHK/MvzUotgRsliyodUFqTCpGVQbXLKz89JTYS7g4WBkYGJgRlIMwBZEAgDIDGoHAA=)
+  last-modified (1561589745277)
+}

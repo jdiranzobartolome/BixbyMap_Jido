@@ -1,0 +1,33 @@
+action (IsThere) {
+  description (Action for knowing whether there is a place near)
+  type (Calculation)
+  collect {
+    input (type) {
+      type (LocationTypeConcept)
+      min (Optional)
+      default-init {
+         intent {
+           goal {LocationOwnerConcept}
+           value {
+             LocationOwnerConcept ("null")
+           }
+         }
+       }
+    }
+    input (owner) {
+      type (LocationOwnerConcept)
+      min (Optional)
+       default-init {
+         intent {
+           goal {LocationOwnerConcept}
+           value {
+             LocationOwnerConcept ("null")
+           }
+         }
+       }
+    }  
+  }
+
+   output (LocationConcept)
+}
+

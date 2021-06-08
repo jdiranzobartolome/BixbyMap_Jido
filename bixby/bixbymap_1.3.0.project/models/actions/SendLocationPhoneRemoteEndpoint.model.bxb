@@ -1,0 +1,39 @@
+action (SendLocationPhoneRemoteEndpoint) {
+  description (Remote endpoint for sending the location info to the phone)
+  type(Calculation)
+ collect {
+    
+    input (sendBoolean) {
+      type (SendBooleanConcept)
+      min (Required)
+       }
+    
+    input (type) {
+      type (LocationTypeConcept)
+      min (Optional)
+       default-init {
+         intent {
+           goal {LocationTypeConcept}
+           value {
+             LocationTypeConcept ("null")
+           }
+         }
+       }
+    }
+    input (owner) {
+      type (LocationOwnerConcept)
+      min (Optional)
+       default-init {
+         intent {
+           goal {LocationOwnerConcept}
+           value {
+             LocationOwnerConcept ("null")
+           }
+         }
+       }
+    }  
+    }
+
+  output (SendPhoneConfirmationConcept)
+}
+

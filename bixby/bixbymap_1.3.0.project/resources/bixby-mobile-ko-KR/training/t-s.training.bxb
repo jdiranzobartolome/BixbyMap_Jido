@@ -1,0 +1,5 @@
+train (t-sjw1xdn2qj3tramnxchr5tloo) {
+  utterance ("[g:LocationConcept,r:FindLocation,v:LocationOwnerConcept:null] (여자 화장실)[v:LocationTypeConcept:'여자 화장실'] 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561657825059)
+}

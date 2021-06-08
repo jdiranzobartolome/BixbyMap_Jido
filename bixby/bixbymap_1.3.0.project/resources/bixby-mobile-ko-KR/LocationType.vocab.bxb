@@ -1,0 +1,15 @@
+vocab (LocationTypeConcept) {
+  // The vocab file has to define at least one value for enum if it is included in the vocab file.
+  // And this value does not have to be the same as the symbol
+  "남자 화장실" {"남자 화장실"}
+  "여자 화장실" {"여자 화장실"} 
+  "엘레베이터" {"엘레베이터"}
+  "교수실" {"교수실" "사무실" "오피스"}  
+  "복도" {"복도"}
+  "휴게실" {"휴게실" "휴식실"}
+  "계단" {"계단"}
+  "연구실" {"연구실" "랩"}
+  "현재 위치" {"현재 위치"}
+  "이거" {"이거" "여기"}
+  
+}

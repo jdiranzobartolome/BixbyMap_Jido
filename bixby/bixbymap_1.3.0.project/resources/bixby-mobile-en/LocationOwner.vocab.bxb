@@ -1,0 +1,10 @@
+vocab (LocationOwnerConcept) {
+  // The vocab file has to define at least one value for enum if it is included in the vocab file.
+  // And this value does not have to be the same as the symbol
+  "Luis Cavazos" {"Luis Cavazos" "Luis" "Cavazos" "Professor Cavazos"}
+  "Jorge Iranzo" {"Jorge Iranzo" "Jorge" "Iranzo" "Professor Iranzo"}
+  "professor Smith" {"professor Smith" "Smith"}
+  "VADA" {"VADA" "vada" "Vada"}
+  "null" {"null"}
+  
+}

@@ -1,0 +1,5 @@
+train (t-ebf5kfbyirpe0a2qg91ptdvm8) {
+  utterance ("[g:LocationConcept,r:FindLocation] (스미스  교수님)[v:LocationOwnerConcept:'스미스 교수님']의 (교수실)[v:LocationTypeConcept:교수실]이 어디야?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQhgAWImsBwDAA==)
+  last-modified (1561544749680)
+}

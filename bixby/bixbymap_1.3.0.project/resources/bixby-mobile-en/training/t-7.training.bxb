@@ -1,0 +1,10 @@
+train (t-7015sdf6mphrk03wf7b85t9bd) {
+  utterance ("[g:LocationConcept,r:IsThere] Is the (office)[v:LocationTypeConcept:office] of (professor Smith)[v:LocationOwnerConcept:'professor Smith'] around?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561653391206)
+}
+train (t-7dsfycghf5ziwcgug3fo4h6tf) {
+  utterance ("[g:LocationConcept,v:LocationOwnerConcept:null] Where is my (starting point)[v:LocationTypeConcept:'starting point']?")
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEENIuWXmpcCkGeQwtfiX56UWwfTJYsqHVBakwqSZGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561589624901)
+}

@@ -1,0 +1,5 @@
+train (t-xi6hfxl98od4uumwclvl81a7n) {
+  utterance ([g:LocationConcept,v:LocationOwnerConcept:null,r:IsThere,v:LocationTypeConcept:null] is there a horse around?)
+  plan (Y2BhkCxLTEnUy8pMydfzyU9OLMnMz3POz0tOLShhEERIeRaHZKQWpTLIYar2L89LLYJpkcWUD6ksSIVJMzMwMjABSQYgDYIQwALETGA5BgA=)
+  last-modified (1561653224280)
+}
