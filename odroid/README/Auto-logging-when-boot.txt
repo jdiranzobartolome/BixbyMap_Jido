@@ -18,8 +18,9 @@ Type=idle
 
 From then on, the user 'odroid' will log-in automatically through tty1 (any other terminal can be used by changing their service unit in the same way)
 
---------------------------------------------------------------------------------------------
-NOTA: It IS IMPORTANT TO MAKE THE USER ODROID TO BE ABLE TO LOG WITHOUT PASSWORD. FOR THAT WE HAVE TO EDIT THE SUDOERS FILE:
+------------------------------------------------------------------------------------------------------------------------------------
+
+NOTE: It IS IMPORTANT TO MAKE THE USER ODROID TO BE ABLE TO LOG WITHOUT PASSWORD. FOR THAT WE HAVE TO EDIT THE SUDOERS FILE:
 
 Open a Terminal window. Type in sudo visudo. Add the following line to the END of the file (if not at the end it can be nullified by later entries):
 

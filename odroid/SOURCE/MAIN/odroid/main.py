@@ -3,8 +3,6 @@
 
 #-------------------------------------------------------------------------------------
 # Main program. Needs to be executed with python3 after having changed the parameters file as desired.
-#
-# Author: Jorge David Iranzo
 #-------------------------------------------------------------------------------------
 
 import sys
@@ -78,7 +76,6 @@ def main():
     
 
     # Create new threads and shareable threadLock. In this case we will only use one thread (tapping thread which will also send the requests)
-    # NOTA: CONSIDER USING A THREAD FOR TAPPING AND OTHER ONE OF REQUESTS, MAYBE ITS BETTER.
     q_tap_api = queue.Queue()
     q_control = queue.Queue()   
     threads = []
@@ -90,7 +87,7 @@ def main():
 
     # Start new Threads
     tapping_thread.start()
-    # Since we have the bixby server in AWS we dont need this probably. In case we need it I just comment this line. 
+    # Since we have the bixby server in AWS we dont need this. In case we need it I just comment this line. 
     #control_thread.start()
 
     # check for threads termination every 100 ms while the main thread is also running (and checking for the keyboard interrupt (CTL+C).

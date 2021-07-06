@@ -7,8 +7,6 @@
 # for most of the system usage time. A threadLock is used in order to execute only one of the threads when needed (for
 # example, the tapping thread will not run when the user enters the VUI and the microphone thread will not run when the user 
 # is listening to an on-going audio in tapping mode).  
-
-# Author: Jorge David Iranzo
 #-------------------------------------------------------------------------------------
 
 import threading
@@ -51,9 +49,7 @@ def tapping_thread_main(threadLock, MPR121, q_tap_api, position_matrix, path_mat
         
     while True:
             
-        # Now we do not have the audios ourselves so we do not know how long they are and we do not change the tapping event according to whether an audio is on or no.
         # so the tapping event always work for allowing the user to talk to the speaker and activate another audio will cancel the ongoing one
-        # SHOULD WE TRY TO ACKNOWLEDGE WHEN AN AUDIO IS BEING PLAYED TO CHANGE TAPPING EVENT RESULT?
         ## no time out, so the MPR121 will wait for a tapping event forever. 
         zone, numtap = MPR121.is_tapping_one_finger_zone()
                 

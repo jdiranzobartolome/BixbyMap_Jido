@@ -5,8 +5,6 @@
 # All parameters which the user might want to change for the system are defined here.
 # They are all defined in capital letters, which represents that they 
 # are constant parameters during execution time and help differentiate them while reading the code. 
-
-# Author: Jorge David Iranzo
 #-------------------------------------------------------------------------------------
 # [START Set_Prameters]
 
@@ -40,9 +38,6 @@ PATH_TYPE_MATRIX = [[0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
                     [0, 0, 0, 0, 0, 0, 1, 0, 1, 0], 
                     [0, 0, 0, 1, 0, 0, 0, 0, 0, 1],
                     [0, 0, 0, 0, 1, 0, 0, 0, 1, 0]]              
-
-
-#definition of the location_type Matrix (needs to be defined for each map)
 
 
 #Parameters to define which debug messages to activate
@@ -98,9 +93,7 @@ FASTEST_TAPPING_INTERVAL = 0.1
 MPR121_TOUCH_THRESHOLD = 40
 MPR121_RELEASE_THRESHOLD = 20
 
-# Path of the main audio folder root. Check the read me file for knowing how to folders need to be arranged. As a reminder, an example of an 
-# audio folder might be:
-# (TO DO)
+# Path of the main audio folder root. 
 # Uncomment next line for writing the absolute path by yourself
 # AUDIOS_PATH = "/home/odroid/art_project_global/art_project_global/"
 # Uncomment next line for using relative path (read README_PROJECT_FOLDER file for info on how the folder tree needs to be arranged)

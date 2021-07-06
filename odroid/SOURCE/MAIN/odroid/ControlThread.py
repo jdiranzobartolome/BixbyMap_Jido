@@ -7,8 +7,6 @@
 # for most of the system usage time. A threadLock is used in order to execute only one of the threads when needed (for
 # example, the tapping thread will not run when the user enters the VUI and the microphone thread will not run when the user 
 # is listening to an on-going audio in tapping mode).  
-
-# Author: Jorge David Iranzo
 #-------------------------------------------------------------------------------------
 
 from flask import Flask
@@ -47,7 +45,7 @@ def control_thread_main(q_control, q_tap_api, type_matrix, path_matrix):
     api = Api(app)
     print("configurando API")
 
-    #I create the only resource and the only instance possible. Every value receive will be automatically sent to the neighbour threads, so 
+    #I create the only resource and the only instance possible. Every value received will be automatically sent to the neighbour threads, so 
     #no need for database nor anything like that. 
     location = {"location_type": "", "location_owner": "" }
     
@@ -77,8 +75,6 @@ def control_thread_main(q_control, q_tap_api, type_matrix, path_matrix):
         def put(self): 
             parser = reqparse.RequestParser()
             parser.add_argument("piece")
-            #parser.add_argument("volume")
-            #parser.add_argument("restart")
             args = parser.parse_args()
             print(args)
                 

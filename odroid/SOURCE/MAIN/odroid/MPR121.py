@@ -7,14 +7,11 @@
 # to improve the performance over the Adafruit original library. Besides that, a function 
 # for recognizing double and triple tapping has being added. The configuration of the MPR121 
 # is really important and changes the latency and accuracy of the tactile response hugely. 
-# The current configuration works great for our goals but if a case in which the tactile performance 
-# is not satisfactory the following steps should be followed iteratively checking after each step
-# whether the desired resuls are reached. 
+# The current configuration works great for our goal and 3D printed conductive artworks.
 # Similarly, if there is a problem with the tapping recognition, the variables 
 # FASTEST_TAPPING_INTERVAL (default of 0.1) and SLOWEST_TAPPING_INTERVAL (default 0.4)
 # need to be modified. 
 
-# Author: Jorge David Iranzo
 #-------------------------------------------------------------------------------------
 
 #Library original version 

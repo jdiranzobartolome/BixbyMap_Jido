@@ -3,7 +3,7 @@ For the script to be executed from a user on boot two steps will be needed:
     1-To activate automatic loggin on start for the user
     2-To make a systemd user specific unit file that automatically run the script when the user logs in the system. 
 
-The systemd user unit files need to be places in the folder "home/[username]/.config/systemd/user/". The the following file needs to be placed: 
+The systemd user unit files need to be placed in the folder "home/[username]/.config/systemd/user/". Thefollowing file needs to be placed: 
 
 ##########home/odroid/.config/systemd/user/user_art.service#########################################################################
 ------------------------------------------------------------------------------------------------------------------------------------- 
